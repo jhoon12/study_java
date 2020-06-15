@@ -1,0 +1,13 @@
+
+public class TestException {
+	public static void main(String[] args) {
+		int []a = {1,2};
+		try {
+			a[3] = 5;
+		}
+		catch(ArrayIndexOutOfBoundsException e) {
+			String s = e.getMessage();
+			System.out.println(s);
+		}
+	}
+}

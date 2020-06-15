@@ -1,0 +1,10 @@
+
+public class test {
+	public static void main(String[] args) {
+		StringBuffer str =new StringBuffer("Java Oracle");
+
+		System.out.println("원본 문자열 : " + str);
+
+		System.out.println(str.delete(4, 8));//javacle
+	}
+}
