@@ -10,8 +10,8 @@ class Out{
 			int out = 1;
 			int in = 2;
 			B b = () -> {
-				int in = 100;
-				int out = 101;
+				 in = 100;
+				out = 101;
 				System.out.println(this.in);
 				System.out.println(Out.this.out);
 				System.out.println(out);
