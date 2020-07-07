@@ -17,13 +17,13 @@ public class HashMapExample1 {
 		Set<String> keySet = map.keySet();
 		Iterator<String> keyIterator = keySet.iterator();
 		while(keyIterator.hasNext()) {
-			String key = iterator.next();
+			String key = keyIterator.next();
 			int value = map.get(key);
 			System.out.println();
 		}
 		
 		Set<Map.Entry<String, Integer>> entrySet = map.entrySet();
-		iterator<Map.Entry<String,I>
+		keyIterator<Map.Entry<String,I>
 	}
 	
 	
